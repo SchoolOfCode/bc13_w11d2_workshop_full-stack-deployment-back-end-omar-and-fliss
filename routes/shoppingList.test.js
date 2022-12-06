@@ -12,9 +12,9 @@ test('check if patch route is working', async function (){
     expect(response.body).toEqual({
     success: true,
     payload: [{
-        id: "1",
+        id: 1,
         item:"Biscuits",
-        completed:"false"
+        completed:false
     }]
 })
 })
